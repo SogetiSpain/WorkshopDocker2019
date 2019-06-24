@@ -10,7 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DockerCompose", "DockerComp
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sogeti.WSDocker2019.ComposeService", "Sogeti.WSDocker2019.ComposeService\Sogeti.WSDocker2019.ComposeService.csproj", "{8BD6765C-7A13-44AA-AE34-00FF8E41EC83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sogeti.WSDocker2019.ComposeService", "Sogeti.WSDocker2019.ComposeService\Sogeti.WSDocker2019.ComposeService.csproj", "{8BD6765C-7A13-44AA-AE34-00FF8E41EC83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AKS", "AKS", "{A2526162-C5BC-4132-A5C1-405BC3D8BBDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sogeti.WSDocker2019.AKS.Web", "Sogeti.WSDocker2019.AKS.Web\Sogeti.WSDocker2019.AKS.Web.csproj", "{0DBD6186-75A6-4524-9E67-8B5381531E5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,12 +30,17 @@ Global
 		{8BD6765C-7A13-44AA-AE34-00FF8E41EC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BD6765C-7A13-44AA-AE34-00FF8E41EC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BD6765C-7A13-44AA-AE34-00FF8E41EC83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBD6186-75A6-4524-9E67-8B5381531E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBD6186-75A6-4524-9E67-8B5381531E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBD6186-75A6-4524-9E67-8B5381531E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBD6186-75A6-4524-9E67-8B5381531E5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8BD6765C-7A13-44AA-AE34-00FF8E41EC83} = {62802585-7F57-4DA3-A53C-DDA8C7133A17}
+		{0DBD6186-75A6-4524-9E67-8B5381531E5A} = {A2526162-C5BC-4132-A5C1-405BC3D8BBDE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C87B975A-29C4-45DA-8698-61E82E7B9952}
